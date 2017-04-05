@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-test-app",
+  "engine": "node 5.5.0",
+  "engineStrict": false,
+  "version": "1.0.0",
+  "description": "",
+  "main": "master.js",
+  "scripts": {},
+  "author": "soum",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-autoprefixer": "2.0.0",
+    "gulp-concat": "~2.4.2",
+    "gulp-connect": "~2.2.0",
+    "gulp-jscs": "^4.0.0",
+    "gulp-modernizr": "^1.0.0-alpha",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.2.0",
+    "webpack-stream": "^3.1.0"
+  },
+  "dependencies": {
+    "bootstrap-sass": "latest",
+    "jquery": "3.1.1",
+    "requirejs": "2.1.22"
+  }
+}

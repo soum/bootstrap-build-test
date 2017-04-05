@@ -1,0 +1,31 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   'tryjson',
+1 verbose cli   '-S' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly rollbackFailedOptional Starting
+8 silly rollbackFailedOptional Finishing
+9 silly runTopLevelLifecycles Starting
+10 silly runTopLevelLifecycles Finishing
+11 silly install printInstalled
+12 verbose stack Error: ELOOP: too many symbolic links encountered, stat '/Users/sghosh1/Documents/personal_projects/bootstrap-test/node_modules/dependencies'
+12 verbose stack     at Error (native)
+13 verbose cwd /Users/sghosh1/Documents/personal_projects/bootstrap-test
+14 error Darwin 15.6.0
+15 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "tryjson" "-S"
+16 error node v5.5.0
+17 error npm  v3.3.12
+18 error path /Users/sghosh1/Documents/personal_projects/bootstrap-test/node_modules/dependencies
+19 error code ELOOP
+20 error errno -62
+21 error syscall stat
+22 error ELOOP: too many symbolic links encountered, stat '/Users/sghosh1/Documents/personal_projects/bootstrap-test/node_modules/dependencies'
+23 error If you need help, you may report this error at:
+23 error     <https://github.com/npm/npm/issues>
+24 verbose exit [ -62, true ]
