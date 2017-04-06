@@ -1,6 +1,7 @@
 var config = {
-	"sassSource": "/node_modules/bootstrap-sass/assets/**/*.scss",
-	"cssDest": "/build/css"
-}
+    scssMain: './public/sass/main.scss',
+    bootstrapDir: './node_modules/bootstrap-sass',
+    publicDir: './build',
+};
 
 module.exports = config;
