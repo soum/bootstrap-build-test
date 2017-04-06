@@ -1,7 +1,8 @@
 var config = {
     scssMain: './public/sass/main.scss',
-    bootstrapDir: './node_modules/bootstrap-sass',
-    publicDir: './build',
+    scssCustom: './public/sass/custom.scss',
+    bootstrapDir: './node_modules/bootstrap-sass/assets',
+    build: './build',
 };
 
 module.exports = config;
